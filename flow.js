@@ -12,6 +12,12 @@ function addNozzle(){
     toro.text = "Toro";    
     nozzleType.add(rainbird);
     nozzleType.add(toro);
+
+    nozzleType.addEventListener('change', () => {
+        let text = nozzleType.options[nozzleType.selectedIndex].text;
+        console.log(text);
+        }
+    )
  
     nozzles.appendChild(nozzleType);
 }
