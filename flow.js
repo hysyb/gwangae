@@ -3,7 +3,8 @@ const nozzles = document.getElementById("nozzles");
 addButton.addEventListener("click", addNozzle);
 
 function addNozzle(){
-
+    let rowContainer = document.createElement('div');
+    nozzles.appendChild(rowContainer);
     let nozzleType = document.createElement("select");
     let rainbird = document.createElement('option');
 
@@ -19,5 +20,5 @@ function addNozzle(){
         }
     )
  
-    nozzles.appendChild(nozzleType);
+    rowContainer.appendChild(nozzleType);
 }
