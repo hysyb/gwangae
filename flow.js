@@ -6,10 +6,12 @@ function addNozzle(){
 
     let nozzleType = document.createElement("select");
     let rainbird = document.createElement('option');
+
     rainbird.text = "Rainbird";
-    let toro = document.createElement('option');
-    toro.text = "Toro";
-    nozzleType.add(option);
+    let toro = document.createElement('option')
+    toro.text = "Toro";    
+    nozzleType.add(rainbird);
+    nozzleType.add(toro);
  
     nozzles.appendChild(nozzleType);
 }
