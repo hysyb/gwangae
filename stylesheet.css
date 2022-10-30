@@ -5,9 +5,14 @@ h1 {
     border-bottom:2px solid black;
     text-shadow:0 0 1px black; 
     box-shadow: 0 8px 6px -6px black;
+    font-size: 48px;
 }
 #nozzles {
     border : 1px solid black;
     padding : 0.5em 0.5em 0.5em 0.5em;
     margin : 0.5em 0.5em 0.5em 0.5em;
+}
+.links {
+    text-align: center;
+    font-size: 36px;
 }
