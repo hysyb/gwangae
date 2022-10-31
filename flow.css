@@ -7,6 +7,9 @@
 body {
     text-align: center;
 }
+button, select, option {
+    font-size: 18px;
+}
 .footer {
     width: 100%;
     position: fixed;

@@ -7,6 +7,7 @@ const NOZZLE_PATTERN = ['Q','H','F','EST','SST','LCS','RCS'];
 //DOM 
 let addButton  = document.getElementById('addButton');
 let content = document.getElementById('nozzles');
+let totalSpan = document.getElementById('totalSpan');
 
 //eventlisteners
 addButton.addEventListener('click', addNozzleRow);
@@ -66,5 +67,6 @@ function optionLoop(nozzleRow, constant, selection){
     
     }
 }
+
 
 
